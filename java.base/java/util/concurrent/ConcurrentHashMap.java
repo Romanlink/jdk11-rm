@@ -557,6 +557,7 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
      * The value should be at least 4 * TREEIFY_THRESHOLD to avoid
      * conflicts between resizing and treeification thresholds.
      */
+    //todo 为什么是64？
     static final int MIN_TREEIFY_CAPACITY = 64;
 
     /**
